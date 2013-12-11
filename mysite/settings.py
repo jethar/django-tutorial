@@ -57,8 +57,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',  # '.postgresql_psycopg2', '.mysql', or '.oracle'
+        'NAME': 'mysite',  # Required to be non-empty string
+        'USER': 'mysiteuser',  # Required to be non-empty string
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',  # Set to empty string for localhost.
+        'PORT': '',  # Set to empty string for default.
     }
 }
 
