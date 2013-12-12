@@ -69,3 +69,13 @@ manage.py shell_plus --notebook
 This will open a IPython notebook on your web browser instead of the IPython shell interpreter. Write your code there, and run it.
 
 When you change your modules, just click on the web page menu item 'Kernel->Restart'
+
+
+----------------------------------------------
+::: Reading List ::::
+
+
+django-extensions
+    http://django-extensions.readthedocs.org/en/latest/index.html
+    https://github.com/django-extensions/django-extensions
+
